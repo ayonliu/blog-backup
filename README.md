@@ -1,2 +1,1 @@
-# blog-backup
-博客备份
+[博客](http://ayonliu.github.io/)备份
