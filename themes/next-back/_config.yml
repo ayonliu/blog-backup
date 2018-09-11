@@ -118,9 +118,9 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  about: /about/ || user
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   sitemap: /sitemap.xml || sitemap
@@ -529,6 +529,20 @@ gitment:
   client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+
+# Gitalk
+# more info please open https://github.com/gitalk/gitalk
+gitalk:
+  enable: true
+  clientID: 498b0416e7c7e4cc2837
+  clientSecret: 54342f0b0504d3c17de150363d05d0f23a78b886
+  repo: blog-comments
+  owner: ayonliu
+  admin: ayonliu
+  labels: gitalk
+  id: location.pathname
+  pagerDirection: last
+  createIssueManually: true
 
 # Baidu Share
 # Available value:
@@ -956,7 +970,6 @@ vendors:
   # valine comment
   # Example: https://cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js
   valine:
-
 
 # Assets
 css: css

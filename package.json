@@ -6,6 +6,7 @@
     "version": "3.7.1"
   },
   "dependencies": {
+    "gitalk": "^1.4.0",
     "hexo": "^3.2.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.4",
@@ -16,6 +17,7 @@
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0"
+    "hexo-server": "^0.2.0",
+    "md5": "^2.2.1"
   }
 }
