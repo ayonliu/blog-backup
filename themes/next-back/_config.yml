@@ -534,8 +534,8 @@ gitment:
 # more info please open https://github.com/gitalk/gitalk
 gitalk:
   enable: true
-  clientID: 498b0416e7c7e4cc2837
-  clientSecret: 54342f0b0504d3c17de150363d05d0f23a78b886
+  clientID: 
+  clientSecret: 
   repo: blog-comments
   owner: ayonliu
   admin: ayonliu
